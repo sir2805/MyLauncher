@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_category_main_settings_title">
+        <ListPreference
+            android:summary="%s"
+            android:defaultValue="@string/pref_icons_show_small_value"
+            android:entries="@array/pref_icons_show_labels"
+            android:entryValues="@array/pref_icons_show_values"
+            android:key="@string/pref_icon_amount_key"
+            android:title="@string/pref_icon_amount_label"/>
+        <ListPreference
+            android:summary="%s"
+            android:defaultValue="@string/pref_theme_light_value"
+            android:entries="@array/pref_theme_labels"
+            android:entryValues="@array/pref_theme_values"
+            android:key="@string/pref_theme_key"
+            android:title="@string/pref_theme_label"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_favourite_settings_title">
+        <SwitchPreferenceCompat
+            android:defaultValue="@bool/pref_favourite_show_default"
+            android:key="@string/pref_favourite_show_key"
+            android:summaryOff="@string/pref_show_false"
+            android:summaryOn="@string/pref_show_true"
+            android:title="@string/pref_favourite_show_label" />
+        <Preference
+            android:title="@string/pref_favourite_clear_title"
+            android:key="@string/pref_favourite_clear_key"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_uri_settings_title">
+        <EditTextPreference
+            android:inputType="number"
+            android:defaultValue="@string/pref_uri_amount_default"
+            android:key="@string/pref_uri_amount_key"
+            android:title="@string/pref_uri_amount_label" />
+        <Preference
+            android:title="@string/pref_uri_clear_title"
+            android:key="@string/pref_uri_clear_key"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

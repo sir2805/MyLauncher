@@ -1,0 +1,62 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <!--<item name="android:textColorSecondary">@color/colorBlack</item>-->
+        <!--<item name="android:windowBackground">@color/colorPrimary</item>-->
+    </style>
+    <style name="AppTheme.NoDisplay">
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="AppTheme.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:textColor">@color/colorBlack</item>-->
+        <!--<item name="android:itemTextAppearance">@style/myCustomMenuTextAppearance</item>-->
+        <!--<item name="android:textColorSecondary">@color/colorBlack</item>-->
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.LightNoBackground">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Dark">
+        <item name="colorPrimary">@color/darkcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:textColor">@color/colorWhite</item>-->
+        <!--<item name="android:itemTextAppearance">@style/myCustomMenuTextAppearance</item>-->
+        <!--&lt;!&ndash;<item name="android:itemTextAppearance"></item>&ndash;&gt;-->
+        <!--<item name="android:textColorSecondary">@color/colorBlack</item>-->
+        <!--<item name="android:textColorPrimary">@color/colorBlack</item>-->
+        <item name="android:windowBackground">@color/darkcolorPrimary</item>
+    </style>
+
+    <style name="AppTheme.DarkNoBackground">
+        <item name="colorPrimary">@color/darkcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkcolorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--columns-->
+    <array name="pref_icons_show_labels">
+        <item>@string/pref_icons_show_small_label</item>
+        <item>@string/pref_icons_show_big_label</item>
+    </array>
+    <array name="pref_icons_show_values">
+        <item>@string/pref_icons_show_small_value</item>
+        <item>@string/pref_icons_show_big_value</item>
+    </array>
+    <!--theme-->
+    <array name="pref_theme_labels">
+        <item>@string/pref_theme_light_label</item>
+        <item>@string/pref_theme_dark_label</item>
+    </array>
+    <array name="pref_theme_values">
+        <item>@string/pref_theme_light_value</item>
+        <item>@string/pref_theme_dark_value</item>
+    </array>
+</resources>
